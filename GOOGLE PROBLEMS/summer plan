@@ -1,0 +1,21 @@
+PLAN for sophomore STEP applications in late summer 2022.
+
+What to Study:
+
+- Binary Trees! Make binary trees your BFFs. Know the difference between prefix vs postfix vs infix traversal and be able to code them up in your sleep.
+- DFS vs BFS. Know which one(s) to use in any given situation. Be able to code them up in your sleep.
+- Stacks vs Queues. (Very strongly related to DFS/BFS.) Know which one(s) to use in any given situation. Be able to code them up in your sleep.
+- Arrays vs Linked Lists. Know the strenghs and weaknesses of each. Be able to implement either.
+- Bonus: Heaps. Heaps are magic and can do damn near anything.
+- Sorting. Have a working familiarity with different ways to sort. Quicksort vs Mergesort vs Bubblesort at minimum.
+-Bucketsort can also be situationally awesome. Heapsort for bonus points. There are others.
+- Big-O notation. Be comfortable with it.
+
+IMPORTANT: The above is mostly overkill. It is entirely possible that a sophomore interview question will involve nothing fancier than the kinds of problems you already saw in the 3015 labs.
+But these topics are still fair game so you don't want to find yourself caught unprepared.
+
+How to Study:
+
+Leetcode. Run through the entire list of 2200+ problems from start to finish. Start with the "Easy" ones, then move on to "Medium".
+Skip the ones you don't understand and come back to them later. Once you've solved a problem in one language,
+go back and solve it again in at least one additional language. (Python and C++ would be my suggestions.)
