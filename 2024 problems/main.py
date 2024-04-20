@@ -4,6 +4,30 @@ Why?
 Execution Plan?
 """
 
+"""
+Solutions:
+From Hardest to Easiest:
+
+1. Using Gaus Sum, then restarle la suma esperada con la obtenida.
+2. Some N x N iteration, but the constraint is the time complexity. 
+3. A simple iteration that add each number to an hashmap or dictionary. 
+
+"""
+
+
+#Problem 3 April 19, 2024
+def find_missing_number(arr):
+    """Using Gauss Sum to find the missing number in the array."""
+    gaus_sum = len(arr) * (len(arr) + 1) // 2
+    total_sum = sum(arr)
+    return gaus_sum - total_sum
+    
+
+
+
+
+
+
 #Problem 1
 """
 Write a function get_middle_char(s) that takes a string
@@ -23,9 +47,15 @@ def get_middle_char(s):
 
 
 
+
+
+
+
 def main():
-    print(get_middle_char("hello")) # return "l"
+    find_missing_number([1, 0, 3, 4, 2])
     return 0
+
+
 
 if __name__ == "__main__":
     main()
