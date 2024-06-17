@@ -44,6 +44,18 @@ def get_middle_char(s):
         return s[middle_position]
 
 
+#Problem 2
+""" 
+Write a function that receives two numbers as input snd returns the bigger
+amoung the two. 
+
+"""
+def max(n1, n2):
+    if n1 > n2:
+        return n1
+    else:
+        return n2
+
 
 
 
