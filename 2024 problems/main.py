@@ -59,6 +59,31 @@ def max(n1, n2):
 
 
 
+#Problem 4
+"""Write a function named sum that gets a number n
+ and returns the sum of the numbers from 1 to n. """
+
+#Iteractive Solution 
+def sum(n):
+    total = 0
+    for i in range(1, n+1):
+        total += i
+    
+    return total
+
+
+# Recursive solution
+def sum(n):
+    if n == 0:
+        return 0
+    else:
+        return sum(n-1) + n 
+
+
+
+
+
+
 
 
 
