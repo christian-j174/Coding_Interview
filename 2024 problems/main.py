@@ -81,6 +81,17 @@ def sum(n):
 
 
 
+#Reverse a string
+def reverse(s):
+    output = ""
+    size = len(s) -1
+
+    while(size >= 0):
+        output += s[size]
+        size = size - 1
+
+    return output
+
 
 
 
