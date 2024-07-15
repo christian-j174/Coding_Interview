@@ -93,14 +93,26 @@ def reverse(s):
     return output
 
 
+def remove(s, i):
+    return s[:i] + s[i+1:]
 
 
+def mulWord(s, n):
+    output = str()
+    for i in range(n):
+        if i == 0:
+            output += s + " "
+        elif i != n-1:
+            output += s + " "
+        else:
+            output += s
 
+    return output
 
 
 
 def main():
-    find_missing_number([1, 0, 3, 4, 2])
+    print(mulWord("hello", 5))
     return 0
 
 
