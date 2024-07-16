@@ -110,6 +110,20 @@ def mulWord(s, n):
     return output
 
 
+def fibo(i):
+    if i == 0:
+        return 0
+    elif i == 1:
+        return 1
+    
+    a, b = 0, 1
+
+    for ii in range(2, i+1):
+        a, b = b, a + b
+    
+    return b 
+
+
 
 def main():
     print(mulWord("hello", 5))
